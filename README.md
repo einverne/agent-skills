@@ -81,18 +81,6 @@ node check-domains.js "projectname1" "projectname2"
 The easiest way to install skills from this repository:
 
 ```bash
-# Install a specific skill
-npx skills install github:einverne/agent-skills/skills/project-name-generator
-
-# Or install from a local path
-npx skills install /path/to/agent-skills/skills/project-name-generator
-```
-
-### Manual Installation
-
-For more control or offline usage:
-
-```bash
 npx skills i einverne/agent-skills
 ```
 
