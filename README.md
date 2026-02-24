@@ -127,6 +127,21 @@ cd ~/.claude/skills/einverne/skills/project-name-generator
 node check-domains.js "testproject"
 ```
 
+## External Skills I Use
+
+Skills from other repositories that I use personally but are not maintained in this repo.
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| [blader/humanizer](https://github.com/blader/humanizer) | Makes AI-generated text sound more natural and human-like | `npx skills add blader/humanizer` |
+| [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | Skills for working with Obsidian vaults, notes, and markdown | `npx skills add kepano/obsidian-skills` |
+| [nowledge-co/community/nowledge-mem-npx-skills](https://mem.nowledge.co/docs/getting-started) | Local-first AI memory layer — lets agents start each session with your context, search your knowledge mid-task, and save what they learn | `npx skills add nowledge-co/community/nowledge-mem-npx-skills` |
+| [better-auth/skills](https://github.com/better-auth/skills) | Guides Claude to add robust authentication to TypeScript/JavaScript apps using Better Auth, covering frontend, backend, and migrations | `npx skills add better-auth/skills` |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | UI/UX design intelligence with 50+ styles, 21 palettes, 50 font pairings across 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, Flutter, etc.) | `npx skills add nextlevelbuilder/ui-ux-pro-max-skill` |
+| [jimliu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) | 宝玉分享的内容生产力套件，支持生成小红书图文、封面图、幻灯片、漫画、知识卡片，并可自动发布到 X / 微信公众号 | `npx skills add jimliu/baoyu-skills` |
+
+---
+
 ## Skill Design Principles
 
 1. **Mandatory Tool Usage**: Critical steps must use actual tools, not speculation
